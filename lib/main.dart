@@ -13,11 +13,11 @@ void main() async {
   runApp(Phoenix(
       child: BlocProvider(
     create: (context) => LanguageCubit(),
-    child: Qvid(),
+    child: Duovie(),
   )));
 }
 
-class Qvid extends StatelessWidget {
+class Duovie extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<LanguageCubit, Locale>(
