@@ -1,7 +1,4 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/BottomNavigation/Explore/explore_page.dart';
-import 'package:duovie/BottomNavigation/MyProfile/followers.dart';
-import 'package:duovie/BottomNavigation/MyProfile/following.dart';
 import 'package:duovie/Components/profile_page_button.dart';
 import 'package:duovie/Components/row_item.dart';
 import 'package:duovie/Components/sliver_app_delegate.dart';
@@ -11,6 +8,10 @@ import 'package:duovie/Routes/routes.dart';
 import 'package:duovie/Theme/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../BottomNavigation/Explore/views/explore_page.dart';
+import '../BottomNavigation/MyProfile/views/followers.dart';
+import '../BottomNavigation/MyProfile/views/following.dart';
 
 class UserProfilePage extends StatelessWidget {
   @override

@@ -1,12 +1,13 @@
-import 'package:duovie/BottomNavigation/Explore/explore_page.dart';
-import 'package:duovie/BottomNavigation/Home/home_page.dart';
-import 'package:duovie/BottomNavigation/MyProfile/my_profile_page.dart';
-import 'package:duovie/BottomNavigation/Notifications/notification_messages.dart';
+import 'package:duovie/BottomNavigation/Notifications/views/notification_messages.dart';
 import 'package:duovie/Locale/locale.dart';
 import 'package:duovie/Routes/routes.dart';
 import 'package:duovie/Theme/colors.dart';
 import 'package:duovie/Theme/style.dart';
 import 'package:flutter/material.dart';
+
+import 'Explore/views/explore_page.dart';
+import 'Home/views/home_page.dart';
+import 'MyProfile/views/my_profile_page.dart';
 
 class BottomNavigation extends StatefulWidget {
   @override

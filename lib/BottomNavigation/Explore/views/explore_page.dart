@@ -1,12 +1,12 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:duovie/BottomNavigation/Explore/more_page.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/thumb_list.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/thumb_list.dart';
+import '../../../Locale/locale.dart';
+import '../../../Routes/routes.dart';
+import '../../../Theme/colors.dart';
+import 'more_page.dart';
 
 List<String> dance = [
   'assets/thumbnails/dance/Layer 951.png',

@@ -1,9 +1,9 @@
 import 'package:duovie/Components/continue_button.dart';
 import 'package:flutter/material.dart';
 
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
-import '../../Theme/style.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
+import '../../../Theme/style.dart';
 
 class BadgeRequest extends StatelessWidget {
   @override

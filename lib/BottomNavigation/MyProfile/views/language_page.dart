@@ -1,9 +1,9 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 
-import '../../Locale/language_service.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
+import '../../../Locale/language_service.dart';
+import '../../../Locale/locale.dart';
+import '../../../Routes/routes.dart';
 
 class ChangeLanguagePage extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/entry_field.dart';
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/entry_field.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 
 class Comment {
   final String? image;

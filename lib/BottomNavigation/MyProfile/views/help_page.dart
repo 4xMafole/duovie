@@ -1,8 +1,8 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 
 class Help {
   final String? question;

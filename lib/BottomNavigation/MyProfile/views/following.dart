@@ -1,9 +1,9 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/Locale/locale.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/profile_page_button.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/profile_page_button.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 
 class User {
   User(this.name, this.username, this.isFollowing, this.image);
@@ -13,31 +13,31 @@ class User {
   bool isFollowing;
 }
 
-class FollowersPage extends StatelessWidget {
+class FollowingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return FollowersBody();
+    return FollowingBody();
   }
 }
 
-class FollowersBody extends StatefulWidget {
+class FollowingBody extends StatefulWidget {
   @override
-  _FollowersBodyState createState() => _FollowersBodyState();
+  _FollowingBodyState createState() => _FollowingBodyState();
 }
 
-class _FollowersBodyState extends State<FollowersBody> {
+class _FollowingBodyState extends State<FollowingBody> {
   List<User> users = [
     User("George Smith", "@georgesmith", true, 'assets/user/user1.png'),
     User("Emili Wiliamson", "@emiliwilliamson", true, 'assets/user/user2.png'),
-    User("Kesha Taylor", "@iamkesha007", false, 'assets/user/user3.png'),
+    User("Kesha Taylor", "@iamkesha007", true, 'assets/user/user3.png'),
     User("Linda Johnson", "@lindahere", true, 'assets/user/user2.png'),
     User("Opus Labs", "@opuslabs", true, 'assets/user/user4.png'),
-    User("Ling Tong", "@lingtong", false, 'assets/user/user3.png'),
+    User("Ling Tong", "@lingtong", true, 'assets/user/user3.png'),
     User("Tosh Williamson", "@mr.williamson", true, 'assets/user/user1.png'),
     User("Uzuz Smith", "@imuzuz", true, 'assets/user/user4.png'),
     User("Rohan Patel", "@roahnindian", true, 'assets/user/user2.png'),
     User("Opus Labs", "@opuslabs", true, 'assets/user/user4.png'),
-    User("Ling Tong", "@lingtong", false, 'assets/user/user3.png'),
+    User("Ling Tong", "@lingtong", true, 'assets/user/user3.png'),
     User("Tosh Williamson", "@mr.williamson", true, 'assets/user/user1.png'),
     User("Uzuz Smith", "@imuzuz", true, 'assets/user/user4.png'),
     User("Rohan Patel", "@roahnindian", true, 'assets/user/user2.png'),
@@ -49,7 +49,7 @@ class _FollowersBodyState extends State<FollowersBody> {
     return Scaffold(
         backgroundColor: darkColor,
         appBar: AppBar(
-          title: Text(locale.followers!),
+          title: Text(locale.following!),
           centerTitle: true,
         ),
         body: FadedSlideAnimation(

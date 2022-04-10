@@ -1,19 +1,20 @@
-import 'package:duovie/Auth/login_navigator.dart';
-import 'package:duovie/BottomNavigation/AddVideo/add_video.dart';
-import 'package:duovie/BottomNavigation/AddVideo/add_video_filter.dart';
-import 'package:duovie/BottomNavigation/AddVideo/post_info.dart';
-import 'package:duovie/BottomNavigation/Explore/more_page.dart';
-import 'package:duovie/BottomNavigation/Explore/search_users.dart';
-import 'package:duovie/BottomNavigation/MyProfile/badge_request.dart';
-import 'package:duovie/BottomNavigation/MyProfile/followers.dart';
-import 'package:duovie/BottomNavigation/MyProfile/help_page.dart';
-import 'package:duovie/BottomNavigation/MyProfile/language_page.dart';
-import 'package:duovie/BottomNavigation/MyProfile/tnc.dart';
-import 'package:duovie/BottomNavigation/MyProfile/video_option.dart';
+import 'package:duovie/Auth/navigator/views/login_navigator.dart';
 import 'package:duovie/BottomNavigation/bottom_navigation.dart';
 import 'package:duovie/Chat/chat_page.dart';
 import 'package:duovie/Screens/user_profile.dart';
 import 'package:flutter/material.dart';
+
+import '../BottomNavigation/AddVideo/views/add_video.dart';
+import '../BottomNavigation/AddVideo/views/add_video_filter.dart';
+import '../BottomNavigation/AddVideo/views/post_info.dart';
+import '../BottomNavigation/Explore/views/more_page.dart';
+import '../BottomNavigation/Explore/views/search_users.dart';
+import '../BottomNavigation/MyProfile/views/badge_request.dart';
+import '../BottomNavigation/MyProfile/views/followers.dart';
+import '../BottomNavigation/MyProfile/views/help_page.dart';
+import '../BottomNavigation/MyProfile/views/language_page.dart';
+import '../BottomNavigation/MyProfile/views/tnc.dart';
+import '../BottomNavigation/MyProfile/views/video_option.dart';
 
 class PageRoutes {
   static const String loginNavigator = 'login_navigator';

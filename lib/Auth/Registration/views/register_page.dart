@@ -7,7 +7,7 @@ import '../../../Components/continue_button.dart';
 import '../../../Components/entry_field.dart';
 import '../../../Locale/locale.dart';
 import '../../../Theme/colors.dart';
-import '../../login_navigator.dart';
+import '../../navigator/views/login_navigator.dart';
 
 //register page for registration of a new user
 class RegisterPage extends StatelessWidget {

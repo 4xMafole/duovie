@@ -5,7 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:get/get.dart';
 
-import 'BottomNavigation/MyProfile/language_page.dart';
+import 'BottomNavigation/MyProfile/views/language_page.dart';
 import 'Locale/language_service.dart';
 import 'Routes/routes.dart';
 
@@ -21,6 +21,7 @@ class Duovie extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: [
         AppLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,

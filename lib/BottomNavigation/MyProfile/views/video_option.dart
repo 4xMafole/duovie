@@ -1,11 +1,11 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/BottomNavigation/Home/comment_sheet.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/custom_button.dart';
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/custom_button.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
+import '../../Home/views/comment_sheet.dart';
 
 class VideoOptionPage extends StatelessWidget {
   @override

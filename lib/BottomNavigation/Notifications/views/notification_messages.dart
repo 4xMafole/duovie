@@ -2,8 +2,8 @@ import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:duovie/Locale/locale.dart';
 import 'package:flutter/material.dart';
 
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
+import '../../../Routes/routes.dart';
+import '../../../Theme/colors.dart';
 
 class NotificationMessages extends StatefulWidget {
   @override

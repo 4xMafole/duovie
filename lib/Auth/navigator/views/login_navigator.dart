@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../Routes/routes.dart';
-import 'Login/UI/login_page.dart';
-import 'Registration/UI/register_page.dart';
-import 'SocialLogin/social_login.dart';
-import 'Verification/UI/verification_page.dart';
+import '../../../Routes/routes.dart';
+import '../../Login/views/login_page.dart';
+import '../../Registration/views/register_page.dart';
+import '../../SocialLogin/views/social_login.dart';
+import '../../Verification/views/verification_page.dart';
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 

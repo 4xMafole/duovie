@@ -2,11 +2,11 @@ import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 
-import '../../Components/continue_button.dart';
-import '../../Components/entry_field.dart';
-import '../../Components/post_thumb_list.dart';
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/continue_button.dart';
+import '../../../Components/entry_field.dart';
+import '../../../Components/post_thumb_list.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 
 class PostInfo extends StatefulWidget {
   @override

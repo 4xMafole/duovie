@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 import 'following_tab.dart';
 
 List<String> videos1 = [

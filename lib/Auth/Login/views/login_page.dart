@@ -5,7 +5,7 @@ import '../../../Components/continue_button.dart';
 import '../../../Components/entry_field.dart';
 import '../../../Locale/locale.dart';
 import '../../../Theme/colors.dart';
-import '../../login_navigator.dart';
+import '../../navigator/views/login_navigator.dart';
 
 class LoginPage extends StatelessWidget {
   @override

@@ -1,13 +1,13 @@
-import 'package:duovie/BottomNavigation/Home/comment_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../Auth/login_navigator.dart';
-import '../../Components/custom_button.dart';
-import '../../Components/rotated_image.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
+import '../../../Auth/navigator/views/login_navigator.dart';
+import '../../../Components/custom_button.dart';
+import '../../../Components/rotated_image.dart';
+import '../../../Locale/locale.dart';
+import '../../../Routes/routes.dart';
+import '../../../Theme/colors.dart';
+import 'comment_sheet.dart';
 
 RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
 

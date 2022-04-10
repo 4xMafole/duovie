@@ -2,10 +2,10 @@ import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/continue_button.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/continue_button.dart';
+import '../../../Locale/locale.dart';
+import '../../../Routes/routes.dart';
+import '../../../Theme/colors.dart';
 
 class AddVideoFilter extends StatefulWidget {
   @override

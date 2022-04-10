@@ -1,19 +1,19 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/BottomNavigation/MyProfile/edit_profile.dart';
-import 'package:duovie/BottomNavigation/MyProfile/followers.dart';
-import 'package:duovie/BottomNavigation/MyProfile/following.dart';
+import 'package:duovie/BottomNavigation/MyProfile/views/edit_profile.dart';
+import 'package:duovie/BottomNavigation/MyProfile/views/followers.dart';
+import 'package:duovie/BottomNavigation/MyProfile/views/following.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 
-import '../../Components/profile_page_button.dart';
-import '../../Components/row_item.dart';
-import '../../Components/sliver_app_delegate.dart';
-import '../../Components/tab_grid.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
-import '../Explore/explore_page.dart';
+import '../../../Components/profile_page_button.dart';
+import '../../../Components/row_item.dart';
+import '../../../Components/sliver_app_delegate.dart';
+import '../../../Components/tab_grid.dart';
+import '../../../Locale/locale.dart';
+import '../../../Routes/routes.dart';
+import '../../../Theme/colors.dart';
+import '../../Explore/views/explore_page.dart';
 
 class MyProfilePage extends StatelessWidget {
   @override

@@ -2,7 +2,7 @@ import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/tab_grid.dart';
+import '../../../Components/tab_grid.dart';
 
 class MorePage extends StatelessWidget {
   final String? title;

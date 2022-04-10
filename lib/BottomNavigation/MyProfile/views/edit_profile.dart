@@ -3,9 +3,9 @@ import 'package:duovie/Routes/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/entry_field.dart';
-import '../../Locale/locale.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/entry_field.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
 
 class EditProfile extends StatefulWidget {
   @override

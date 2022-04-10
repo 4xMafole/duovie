@@ -1,7 +1,8 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/BottomNavigation/Home/following_tab.dart';
-import 'package:duovie/BottomNavigation/Home/home_page.dart';
+import 'package:duovie/BottomNavigation/Home/views/following_tab.dart';
 import 'package:flutter/material.dart';
+
+import '../BottomNavigation/Home/views/home_page.dart';
 
 class ThumbTile extends StatelessWidget {
   final String mediaListData;

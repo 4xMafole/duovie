@@ -1,13 +1,13 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
-import 'package:duovie/BottomNavigation/Explore/explore_page.dart';
 import 'package:duovie/Extension/extensions.dart';
+import 'package:duovie/Routes/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Components/tab_grid.dart';
-import '../../Locale/locale.dart';
-import '../../Routes/routes.dart';
-import '../../Theme/colors.dart';
+import '../../../Components/tab_grid.dart';
+import '../../../Locale/locale.dart';
+import '../../../Theme/colors.dart';
+import 'explore_page.dart';
 
 class User {
   User(this.name, this.id, this.img);
