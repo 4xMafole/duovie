@@ -96,9 +96,12 @@ class _FollowingTabBodyState extends State<FollowingTabBody> {
                   isScrollControlled: true,
                   isDismissible: false,
                   builder: (context) {
-                    return Container(
-                        height: MediaQuery.of(context).size.width * 1.2,
-                        child: LoginNavigator());
+                    return FractionallySizedBox(
+                      heightFactor: 0.9,
+                      child: Container(
+                          height: MediaQuery.of(context).size.width * 1.2,
+                          child: LoginNavigator()),
+                    );
                   },
                 );
               }

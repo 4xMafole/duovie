@@ -39,51 +39,50 @@ class _RegisterFormState extends State<RegisterForm> {
   @override
   Widget build(BuildContext context) {
     var locale = AppLocalizations.of(context)!;
-    return SingleChildScrollView(
-      child: Container(
-        decoration: BoxDecoration(
-          color: backgroundColor,
-          border: Border.all(color: transparentColor),
-          borderRadius: BorderRadius.vertical(top: Radius.circular(16.0)),
-        ),
-        height: MediaQuery.of(context).size.width * 1,
-        padding: EdgeInsets.symmetric(horizontal: 20.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            //name textField
-            EntryField(
-              textCapitalization: TextCapitalization.words,
-              label: locale.fullName,
-            ),
-            //email textField
-            EntryField(
-              textCapitalization: TextCapitalization.none,
-              label: locale.email,
-              keyboardType: TextInputType.emailAddress,
-            ),
+    return Container(
+      decoration: BoxDecoration(
+        color: backgroundColor,
+        border: Border.all(color: transparentColor),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16.0)),
+      ),
+      padding: EdgeInsets.symmetric(horizontal: 20.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          //name textField
+          EntryField(
+            textCapitalization: TextCapitalization.words,
+            label: locale.fullName,
+          ),
+          //email textField
+          EntryField(
+            textCapitalization: TextCapitalization.none,
+            label: locale.email,
+            keyboardType: TextInputType.emailAddress,
+          ),
 
-            //phone textField
-            EntryField(
-              label: locale.phoneNumber,
-              keyboardType: TextInputType.number,
-            ),
-            Spacer(),
-            Text(
-              locale.weWillSend! + '\n',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.subtitle1,
-            ),
-
-            //continue button
-            CustomButton(
-                text: locale.continueText,
-                onPressed: () {
-                  Navigator.pushNamed(context, LoginRoutes.verification);
-                })
-          ],
-        ),
+          //phone textField
+          EntryField(
+            label: locale.phoneNumber,
+            keyboardType: TextInputType.number,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            locale.weWillSend! + '\n',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.subtitle1,
+          ),
+          Spacer(),
+          //continue button
+          CustomButton(
+              text: locale.continueText,
+              onPressed: () {
+                Navigator.pushNamed(context, LoginRoutes.verification);
+              })
+        ],
       ),
     );
   }

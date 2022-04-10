@@ -44,12 +44,12 @@ class VerificationBody extends StatefulWidget {
 
 class _VerificationBodyState extends State<VerificationBody> {
   bool isDialogShowing = false;
-  int _counter = 20;
+  int _counter = 60;
   late Timer _timer;
 
   _startTimer() {
     //shows timer
-    _counter = 20; //time counter
+    _counter = 60; //time counter
 
     _timer = Timer.periodic(Duration(seconds: 1), (timer) {
       setState(() {
@@ -81,7 +81,7 @@ class _VerificationBodyState extends State<VerificationBody> {
       padding: EdgeInsets.only(left: 20.0, bottom: 16.0, right: 20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           Text(
             '\n' + locale.enterCode! + '+91__________',
@@ -91,7 +91,6 @@ class _VerificationBodyState extends State<VerificationBody> {
           SizedBox(height: 32.0),
           EntryField(
             label: locale.verificationCode,
-            initialValue: '_ _ _ _ _ _',
             maxLength: 6,
             keyboardType: TextInputType.number,
           ),
