@@ -1,6 +1,6 @@
 Map<String, String> arabic() {
   return {
-    'youWillNeed': 'عليك ان تحصل على حساب Qvid \ n لمواصلة',
+    'youWillNeed': 'عليك ان تحصل على حساب Duovie \ n لمواصلة',
     'enterPhone': 'أدخل رقم الهاتف',
     'continueText': 'استمر',
     'orContinueWith': 'أو تواصل مع',

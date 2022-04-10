@@ -1,6 +1,6 @@
 Map<String, String> indonesian() {
   return {
-    'youWillNeed': 'Anda akan memerlukan akun Qvid \nuntuk terus',
+    'youWillNeed': 'Anda akan memerlukan akun Duovie \nuntuk terus',
     'enterPhone': 'Masukkan nomor telepon',
     'continueText': 'Terus',
     'orContinueWith': 'Atau Lanjutkan dengan',

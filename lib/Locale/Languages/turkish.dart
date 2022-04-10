@@ -1,6 +1,6 @@
 Map<String, String> turkish() {
   return {
-    'youWillNeed': 'Devam etmek için bir\nQvid hesap gerekecektir',
+    'youWillNeed': 'Devam etmek için bir\nDuovie hesap gerekecektir',
     'enterPhone': 'Telefon numarasını girin',
     'continueText': 'Devam et',
     'orContinueWith': 'Veya devam edin',

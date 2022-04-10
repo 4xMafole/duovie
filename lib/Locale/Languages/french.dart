@@ -1,6 +1,6 @@
 Map<String, String> french() {
   return {
-    'youWillNeed': 'Vous aurez besoin d\'un compte Qvid \n to continuer',
+    'youWillNeed': 'Vous aurez besoin d\'un compte Duovie \n to continuer',
     'enterPhone': 'Entrez le numéro de téléphone',
     'continueText': 'Continuer',
     'orContinueWith': 'Ou Continuer avec',

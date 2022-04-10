@@ -1,6 +1,6 @@
 Map<String, String> swahili() {
   return {
-    'youWillNeed': 'Utahitaji akaunti\nQvid kuendelea',
+    'youWillNeed': 'Utahitaji akaunti\nDuovie kuendelea',
     'enterPhone': 'Ingiza namba ya simu',
     'continueText': 'kuendelea',
     'orContinueWith': 'Au Endelea na',

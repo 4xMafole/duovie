@@ -1,6 +1,6 @@
 Map<String, String> portuguese() {
   return {
-    'youWillNeed': 'Você vai precisar de uma conta Qvid \npara continuar',
+    'youWillNeed': 'Você vai precisar de uma conta Duovie \npara continuar',
     'enterPhone': 'Digite o número de telefone',
     'continueText': 'Continuar',
     'orContinueWith': 'Ou continuar com',
