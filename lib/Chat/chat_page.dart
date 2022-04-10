@@ -123,13 +123,13 @@ class MessageStream extends StatelessWidget {
         isMe: false,
       ),
     ];
-    return Expanded(
-      child: ListView(
-        physics: BouncingScrollPhysics(),
-        reverse: true,
-        padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
-        children: messageBubbles,
-      ),
+    return ListView(
+      scrollDirection: Axis.vertical,
+      shrinkWrap: true,
+      physics: BouncingScrollPhysics(),
+      reverse: true,
+      padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
+      children: messageBubbles,
     );
   }
 }
