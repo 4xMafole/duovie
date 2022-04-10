@@ -188,7 +188,6 @@ class _VideoPageState extends State<VideoPage> with RouteAware {
 //    }
     if (widget.pageIndex == 2) _controller.pause();
     return Scaffold(
-      resizeToAvoidBottomInset: true,
       body: Stack(
         children: <Widget>[
           GestureDetector(

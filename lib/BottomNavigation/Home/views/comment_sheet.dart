@@ -84,15 +84,30 @@ void commentSheet(BuildContext context) async {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.all(20.0),
-                        child: Text(
-                          locale.comments!,
-                          style: Theme.of(context)
-                              .textTheme
-                              .headline6!
-                              .copyWith(color: lightTextColor),
-                        ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.all(20.0),
+                            child: Text(
+                              locale.comments!,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6!
+                                  .copyWith(color: lightTextColor),
+                            ),
+                          ),
+                          Spacer(),
+                          Padding(
+                            padding: EdgeInsets.all(20.0),
+                            child: Text(
+                              "1.1k",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6!
+                                  .copyWith(color: lightTextColor),
+                            ),
+                          ),
+                        ],
                       ),
                       Expanded(
                         child: ListView.builder(
@@ -147,21 +162,26 @@ void commentSheet(BuildContext context) async {
                 ),
                 Align(
                   alignment: Alignment.bottomCenter,
-                  child: EntryField(
-                    counter: null,
-                    padding: EdgeInsets.zero,
-                    hint: locale.writeYourComment,
-                    fillColor: darkColor,
-                    prefix: Padding(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-                      child: CircleAvatar(
-                        backgroundImage: AssetImage('assets/images/user.webp'),
+                  child: Container(
+                    color: darkColor,
+                    child: EntryField(
+                      counter: null,
+                      padding: EdgeInsets.only(
+                          bottom: MediaQuery.of(context).viewInsets.bottom),
+                      hint: locale.writeYourComment,
+                      fillColor: darkColor,
+                      prefix: Padding(
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 16.0, vertical: 8.0),
+                        child: CircleAvatar(
+                          backgroundImage:
+                              AssetImage('assets/images/user.webp'),
+                        ),
                       ),
-                    ),
-                    suffixIcon: Icon(
-                      Icons.send,
-                      color: mainColor,
+                      suffixIcon: Icon(
+                        Icons.send,
+                        color: mainColor,
+                      ),
                     ),
                   ),
                 ),
