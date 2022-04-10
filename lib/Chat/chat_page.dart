@@ -46,12 +46,14 @@ class _ChatBodyState extends State<ChatBody> {
         ),
         body: FadedSlideAnimation(
           Column(
-            mainAxisAlignment: MainAxisAlignment.end,
+            // mainAxisAlignment: MainAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               FadedScaleAnimation(MessageStream()),
               Container(
                 color: darkColor,
-                padding: EdgeInsets.symmetric(horizontal: 12.0),
+                padding: EdgeInsets.only(
+                    bottom: MediaQuery.of(context).viewInsets.bottom),
                 child: EntryField(
                   prefix: IconButton(
                     icon: Icon(Icons.tag_faces),

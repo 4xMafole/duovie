@@ -45,8 +45,9 @@ class _MyProfileBodyState extends State<MyProfileBody> {
                   headerSliverBuilder:
                       (BuildContext context, bool innerBoxIsScrolled) {
                     return <Widget>[
+                      //? Unsolved pixel overflow bug on scrolling
                       SliverAppBar(
-                        expandedHeight: 404.0,
+                        expandedHeight: 400.0,
                         floating: false,
                         actions: <Widget>[
                           Theme(
@@ -121,29 +122,6 @@ class _MyProfileBodyState extends State<MyProfileBody> {
                                 '@imsamanthasmith',
                                 style: TextStyle(
                                     fontSize: 10, color: disabledTextColor),
-                              ),
-                              Spacer(),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: <Widget>[
-                                  ImageIcon(
-                                    AssetImage("assets/icons/ic_fb.png"),
-                                    color: secondaryColor,
-                                    size: 10,
-                                  ),
-                                  SizedBox(width: 16),
-                                  ImageIcon(
-                                    AssetImage("assets/icons/ic_twt.png"),
-                                    color: secondaryColor,
-                                    size: 10,
-                                  ),
-                                  SizedBox(width: 16),
-                                  ImageIcon(
-                                    AssetImage("assets/icons/ic_insta.png"),
-                                    color: secondaryColor,
-                                    size: 10,
-                                  ),
-                                ],
                               ),
                               Spacer(),
                               Text(
