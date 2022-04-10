@@ -108,7 +108,7 @@ class _PostInfoState extends State<PostInfo> {
               CustomButton(
                 text: AppLocalizations.of(context)!.postVideo,
                 onPressed: () {
-                  Phoenix.rebirth(context);
+                  //Post content
                 },
               )
             ],
