@@ -1,11 +1,11 @@
 import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 
-import '../../../Components/continue_button.dart';
-import '../../../Components/entry_field.dart';
-import '../../../Locale/locale.dart';
-import '../../../Theme/colors.dart';
-import '../../navigator/views/login_navigator.dart';
+import '../../Components/continue_button.dart';
+import '../../Components/entry_field.dart';
+import '../../Locale/locale.dart';
+import '../../Theme/colors.dart';
+import '../login_navigator.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -43,9 +43,6 @@ class _LoginBodyState extends State<LoginBody> {
                   .copyWith(color: secondaryColor),
             ),
             Spacer(),
-            EntryField(
-              label: AppLocalizations.of(context)!.enterPhone,
-            ),
             CustomButton(
               onPressed: () =>
                   Navigator.pushNamed(context, LoginRoutes.registration),

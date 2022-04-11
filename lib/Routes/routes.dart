@@ -1,4 +1,4 @@
-import 'package:duovie/Auth/navigator/views/login_navigator.dart';
+import 'package:duovie/Auth/login_navigator.dart';
 import 'package:duovie/BottomNavigation/bottom_navigation.dart';
 import 'package:duovie/Chat/chat_page.dart';
 import 'package:duovie/Screens/user_profile.dart';

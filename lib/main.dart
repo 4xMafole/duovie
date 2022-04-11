@@ -1,5 +1,6 @@
 import 'package:duovie/Locale/locale.dart';
 import 'package:duovie/Theme/style.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
@@ -10,6 +11,8 @@ import 'Locale/language_service.dart';
 import 'Routes/routes.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized;
+  Firebase.initializeApp();
   runApp(
     Phoenix(
       child: Duovie(),

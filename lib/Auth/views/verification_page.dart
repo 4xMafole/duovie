@@ -4,9 +4,9 @@ import 'package:animation_wrappers/animation_wrappers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../../../Components/continue_button.dart';
-import '../../../Components/entry_field.dart';
-import '../../../Locale/locale.dart';
+import '../../Components/continue_button.dart';
+import '../../Components/entry_field.dart';
+import '../../Locale/locale.dart';
 
 //Verification page that sends otp to the phone number entered on phone number page
 class VerificationPage extends StatelessWidget {

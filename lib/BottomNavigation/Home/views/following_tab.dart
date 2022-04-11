@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../../Auth/navigator/views/login_navigator.dart';
+import '../../../Auth/login_navigator.dart';
 import '../../../Components/custom_button.dart';
 import '../../../Components/rotated_image.dart';
 import '../../../Locale/locale.dart';
@@ -188,6 +188,7 @@ class _VideoPageState extends State<VideoPage> with RouteAware {
 //    }
     if (widget.pageIndex == 2) _controller.pause();
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Stack(
         children: <Widget>[
           GestureDetector(
