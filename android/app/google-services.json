@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "293442398502",
+    "project_id": "duovie-ce2a0",
+    "storage_bucket": "duovie-ce2a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293442398502:android:586fe5450c643c1371f9e7",
+        "android_client_info": {
+          "package_name": "com.app.duovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293442398502-07oe4p6lau7in9m0ovsehcalelrgqi8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.duovie",
+            "certificate_hash": "a097ba8429df6bd1de42ecad085e03c04eb7ef12"
+          }
+        },
+        {
+          "client_id": "293442398502-b9hdcc0tg1jcrutdthsi2v294q0nuvjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBievBtJDmc4uo_wYEM0Fn5EVzIONiDfso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293442398502-b9hdcc0tg1jcrutdthsi2v294q0nuvjj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "293442398502-bjfv5lqcgaf7hetap910if0qjb97v1rc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.duovie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

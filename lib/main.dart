@@ -11,8 +11,8 @@ import 'Locale/language_service.dart';
 import 'Routes/routes.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized;
-  Firebase.initializeApp();
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(
     Phoenix(
       child: Duovie(),
